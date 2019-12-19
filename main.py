@@ -190,8 +190,8 @@ else:
 
 #%%
 #CODE FOR Reloading PYTORCH MODEL --> WILL BE IMPLEMENTED IN THE FINAL APPLICATION SINCE ITS THE BEST MODEL
-model_state_dict = torch.load(output_model_file)
-loaded_model = BertForSequenceClassification.from_pretrained(modelfilePath, state_dict=model_state_dict, num_labels=2)
+#model_state_dict = torch.load(output_model_file)
+#loaded_model = BertForSequenceClassification.from_pretrained(modelfilePath, state_dict=model_state_dict, num_labels=2)
 
 
 
