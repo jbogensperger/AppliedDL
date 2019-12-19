@@ -56,7 +56,7 @@ parser.add_argument('--bertpath', default='models/uncased_L-12_H-768_A-12',
 parser.add_argument('--existingModelPath', default='data/modelName', help='INPUT FILE PATH')
 parser.add_argument('--epochs', default=2, help='INPUT FILE PATH')
 parser.add_argument('--batchsize', default=32, help='INPUT FILE PATH')
-parser.add_argument('--doPreProcessing', default=False, help='INPUT FILE PATH')
+parser.add_argument('--doPreProcessing', default=True, help='INPUT FILE PATH')
 args = parser.parse_args()
 
 
